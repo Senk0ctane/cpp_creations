@@ -1,0 +1,34 @@
+POO
+*clase: Es el objeto, Ej. Mesa
+
+*Atributos: Son las caracteristicas del objeto. En el caso de la mesa sería:
+ -Color
+ -Material
+ -N° de patas
+ -Dimensiones
+ -Peso
+
+*Metodos: La funcionalidad, lo que se hará con dicha mesa. Ej.:
+IngresarDatosMesa()
+MostrarDatosMesa()
+UtilidadMEsa()
+
+*Instancia: para instancair la mesa necesitamos decir que existen los diferentes tipos de mesa. Ej.:
+ -Comedor
+ -pupitre
+ -escritorio
+ -dibujo...
+
+Ejemplo
+clase: persona
+atributos: nombre, apellido, premio, usuario, contraseña
+metodos: iniciar sesion, cerrar sesion, dar premio
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+abstraccion: los objetos se pueden usar sin conocer como funciona la clase, es decir, está oculta. Ej.: librerias
+
+encapsulamiento: los datos estan ocultos a los demas objetos
+
+herencia: Las clases heredan a los objetos que pertenecen a esta sus métodos, si hereda a otra clase la principal es la clase base, la secundaria a derivada
+
+polimorfismo: Cambian las formas (metodos) de los objetos, sin cambiar la clase realmente

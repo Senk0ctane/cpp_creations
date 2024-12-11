@@ -1,0 +1,15 @@
+Para que el programa genere archivos .txt se utiliza la libreria fstream. Dependiendo de lo que se va a hacer
+se utilizan los objetos -oftream (output file stream), para crear un archivo. Su sintaxis es:
+ofstream archivo("nombre_del_archivo.txt")
+ 
+mientras que para leer informacion de un archivo se usa -ifstream(input file stream). Su sintaxis es:
+ifstream archivo(nombre,c_str());
+
+-fstream, sirve tanto para leer como para escribir un archivo .txt
+fstream archivo("nombre_del_archivo.txt",ios::out)
+
+para escribir datos en el archivo se una "<<", similar al cout, para leer datos del archivo se usa ">>" similar al cin
+para finalizar la utilizacion de un archivo se debe usar archivo.close().
+para leer toda una linea con espacion se usa getline de la siguiente forma: getline(cin,variable_de_texto);
+
+crear un archivo que guarde un mensaje en el programa de ejemplo "creacion de archivos"
